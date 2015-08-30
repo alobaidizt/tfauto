@@ -1,0 +1,8 @@
+.row
+  .col.s12.m6
+    .card.amber.accent-2
+      .card-content.white-text
+        span.card-title Card Title
+        p Welcome to your Dashboard. Automaton will present all the information you need right here! :)
+      .card-action
+        a href='#' This is a link

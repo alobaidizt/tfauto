@@ -1,0 +1,32 @@
+a.btn-floating.btn-large.waves-effect.waves-light.right class=isListening:green:red click="startListening"
+  i.fa.fa-microphone
+p.amber-text.text-accent-2.left = tip
+.container
+  .row.center
+
+  .row.center
+    h5.amber-text.text-accent-2 Choose From...
+  .row
+    .col.s12.center
+      .waves-effect.waves-light.btn.btn-large.amber.accent-2.grey-text.text-darken-4.z-depth-5.left = option1
+      .waves-effect.waves-light.btn.btn-large.amber.accent-2.grey-text.text-darken-4.z-depth-5.center = option2
+      .waves-effect.waves-light.btn.btn-large.amber.accent-2.grey-text.text-darken-4.z-depth-5.right = option3
+
+  .row
+    iframe.center-align src=url style="width: 100%;height: 800px;"
+
+
+      /*button.btn.btn-large.green.accent-3.m3 click="startListening" start*/
+      /*.waves-effect.waves-light.btn.btn-large.amber.accent-2.grey-text.text-darken-4.m3 Home*/
+      /*button.btn.btn-large.green.accent-3.m3 click="changeCryptonState" = cryptonState*/
+      /*button.btn.red.accent-3 click="stopListening" stop*/
+      /*button.btn.cyan.accent-2 click="triggerSpark" Spark*/
+      /*button.btn.pink.accent-2 click="changeUrl" Discover*/
+
+
+    /*.col.s4*/
+      /*.waves-effect.waves-light.btn.amber.accent-2.grey-text.text-darken-4 Info*/
+    /*.col.s4*/
+      /*.waves-effect.waves-light.btn.amber.accent-2.grey-text.text-darken-4 Oakland*/
+    /*.col.s4*/
+      /*.waves-effect.waves-light.btn.amber.accent-2.grey-text.text-darken-4 Robot*/

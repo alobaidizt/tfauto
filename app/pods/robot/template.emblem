@@ -1,0 +1,41 @@
+a.btn-floating.btn-large.waves-effect.waves-light.right class=isListening:green:red click="startListening"
+  i.fa.fa-microphone
+p.amber-text.text-accent-2.left = tip
+.container
+  .row.center
+
+  .row.center
+    h5.amber-text.text-accent-2 Oakland University
+  .row
+    .col.s12.center
+      .waves-effect.waves-light.btn.btn-large.amber.accent-2.grey-text.text-darken-4.z-depth-5.left Squar
+      .waves-effect.waves-light.btn.btn-large.amber.accent-2.grey-text.text-darken-4.z-depth-5.center Circle
+      .waves-effect.waves-light.btn.btn-large.amber.accent-2.grey-text.text-darken-4.z-depth-5.right Dance
+  .row
+  .row
+  .row
+  .row
+  .row.center
+      .btn-floating.btn-large.waves-effect.waves-light.z-depth-5.center click='moveForward'
+        i.fa.fa-angle-up
+  .row.center
+      .btn-floating.btn-large.waves-effect.waves-light.z-depth-5.left click='moveLeft'
+        i.fa.fa-angle-left
+      .btn-floating.btn-large.waves-effect.waves-light.z-depth-5.right click='moveRight'
+        i.fa.fa-angle-right
+  .row.center
+      .btn-floating.btn-large.waves-effect.waves-light.z-depth-5.center click='moveBackward'
+        i.fa.fa-angle-down
+  .row
+  .row
+  .row
+  .row
+  .row
+  .row
+  .row
+  .row
+  .row
+  .row
+  .row
+  .row
+

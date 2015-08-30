@@ -1,0 +1,37 @@
+nav
+  ul#slide-out.side-nav
+    li
+      a href='#!' Macro 1
+    li
+      a href='#!' Macro 2
+  a.button-collapse.show-on-large href="" data-activates="slide-out"
+    i.mdi-navigation-menu
+
+.container
+  .row
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
+        /*.card-content.white-text*/
+          /*span.card-title Card Title*/
+          p Dinner Party! 
+        /*.card-action*/
+          a href='#' This is a link
+
+    .col.s12.m4
+      .card.amber.accent-2
+        .card-content.white-text
+          span.card-title Card Title
+          p Welcome to your Dashboard. Automaton will present all the information you need right here! :)
+        .card-action
+          a href='#' This is a link
+
+    .col.s12.m4
+      .card.amber.accent-2
+        .card-content.white-text
+          span.card-title Card Title
+          p Welcome to your Dashboard. Automaton will present all the information you need right here! :)
+        .card-action
+          a href='#' This is a link
