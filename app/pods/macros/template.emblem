@@ -1,37 +1,103 @@
 nav
-  ul#slide-out.side-nav
-    li
-      a href='#!' Macro 1
-    li
-      a href='#!' Macro 2
-  a.button-collapse.show-on-large href="" data-activates="slide-out"
-    i.mdi-navigation-menu
+  .nav-wrapper.grey.darken-3
+    ul.grey.darken-3.left#slide-out.side-nav
+      li
+        /*.row*/
+          /*a.btn-floating.btn-large.blue.right*/
+        .row
+          img.circle.responsive-image.right src='images/person.png' alt="" width="50px" height="50px"
+        .row
+
+      li.amber.accent-2
+        a href='#!' Staff
+      li.light-green.accent-2
+        a href='#!' Events
+      li.light.blue
+        a href='#!' Explore
+    a.button-collapse.show-on-large.left href="" data-activates="slide-out"
+      i.mdi-navigation-menu
 
 .container
   .row
     .col.s12.m4
       .card.grey.darken-2
         .card-image
+          img.responsive-image src='images/dinner_event.png'
+          span.card-title Dinner
+
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Party
+
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
           img src='images/dinner_event.png'
           span.card-title Dinner Part
-        /*.card-content.white-text*/
-          /*span.card-title Card Title*/
-          p Dinner Party! 
-        /*.card-action*/
-          a href='#' This is a link
+          
+  .row
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
 
     .col.s12.m4
-      .card.amber.accent-2
-        .card-content.white-text
-          span.card-title Card Title
-          p Welcome to your Dashboard. Automaton will present all the information you need right here! :)
-        .card-action
-          a href='#' This is a link
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
 
     .col.s12.m4
-      .card.amber.accent-2
-        .card-content.white-text
-          span.card-title Card Title
-          p Welcome to your Dashboard. Automaton will present all the information you need right here! :)
-        .card-action
-          a href='#' This is a link
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
+          
+  .row
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
+
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
+
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
+          
+  .row
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
+
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
+
+    .col.s12.m4
+      .card.grey.darken-2
+        .card-image
+          img src='images/dinner_event.png'
+          span.card-title Dinner Part
+
+  .fixed-action-btn style="bottom: 45px; right: 24px;"
+    a.btn-floating.cyan.accent-2.btn-large
+      i.fa.fa-glass
+    ul
+      li
+        a.btn-floating.cyan.accent-2 
+          i.fa.fa-glass

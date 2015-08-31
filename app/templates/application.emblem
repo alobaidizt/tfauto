@@ -1,6 +1,6 @@
-nav
-  .nav-wrapper.grey.darken-4
-    a.brand-logo.amber-text.text-accent-2 href="/" Crypton
+/*nav*/
+  /*.nav-wrapper.grey.darken-4*/
+    /*a.brand-logo.amber-text.text-accent-2 href="/" Crypton*/
     /*ul.right.hide-on-med-and-down*/
       /*li*/
         /*a.medium.mdi-action-home href="/" title="Dash"     */
